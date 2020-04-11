@@ -1,22 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<!-- CSS Stylesheets with Relative Paths -->
+
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>neil hsu</title>
+  <meta charset="UTF-8">
+  <title>Neil Hsu's Bio</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="neil.css">
 </head>
+
 <body>
-    <h1>
-        Neil Hsu
-    </h1>
-    <br>
-    <br>
-    <br>
-    <div>
 
-    <align="center"><img src="images/IMG_5621_1.jpg" alt=""></align>
-    </div>
+  <header>
+    <h1>Neil Hsu's Bio</h1>
+  </header>
 
-    
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Your Name</h2>
+        <img id="bio-image" src="images/IMG_5621_1.jpg" alt="Neil Hsu">
+      </section>
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:neilhsu@gmail.com">neilhsu@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="http://www.github.com/neilhsu70">github.com/neilhsu70</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
+
 </body>
+
 </html>
